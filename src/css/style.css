@@ -1,0 +1,52 @@
+.link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 35px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: rgba(255, 196, 106, 1);
+}
+
+.link:last-child {
+    margin-right: 0px;
+}
+
+.logoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box-link {
+    text-decoration: none;
+}
+
+.price {
+    border: none;
+    background: rgba(21, 27, 53, 1);
+    padding: 12px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 300ms;
+    font-size: 14px;
+    margin-top: 2vh;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.price:hover {
+    background: #814C53;
+    color: #ccc;
+}
+
+@media only screen and (max-width: 900px) {
+    .link {
+        margin: 20px 0px 10px 0px;
+    }
+}
