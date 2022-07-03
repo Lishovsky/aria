@@ -28,6 +28,10 @@ const Root = () => (
       <Route path='/atelier-urody/usluga' element={<SingleServicesPage />} />
       <Route path='/szkolenia/szkolenie' element={<SingleCoursePage />} />
 
+      <Route path='/zapis' element={<SingleCoursePage />} />
+
+
+
     </Routes>
     <ContactDataContainer />
     <Footer />

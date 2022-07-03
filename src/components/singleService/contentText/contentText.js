@@ -2,6 +2,7 @@ import React from "react";
 import '../../../css/style.css';
 import styled from "styled-components";
 import { services } from "../../../data/services";
+import Button from '../button/button'
 
 const Text = styled.p`
     color: #9C9C9C;
@@ -45,6 +46,7 @@ const ContentText = () => {
         <>
             <Text className="content"></Text>
             <Price className="priceElement"></Price>
+            <Button />
         </>
     )
 

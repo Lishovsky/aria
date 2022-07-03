@@ -58,7 +58,7 @@ const ContentText = () => (
         <Box>
             <Image src={mail} alt="mail"></Image>
             <HeadingText>E-mail</HeadingText>
-            <Description>Kontakt@ariaszkolenia.pl</Description>
+            <Description>Info@ariaszkolenia.pl</Description>
         </Box>
         <Box>
             <Image src={location} alt="location"></Image>

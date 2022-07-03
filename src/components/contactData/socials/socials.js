@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import facebook from '../../../assets/fb.svg'
 import instagram from '../../../assets/ig.svg'
-import booksy from '../../../assets/booksy.svg'
+import saloner from '../../../assets/saloner.svg'
 
 
 
@@ -47,7 +47,7 @@ const SocialsBox = () => (
             <Link href="https://www.instagram.com/aria.aroma.atelier/" target="_blank"><img src={instagram} alt="instagram" /></Link>
         </Socials>
         <Socials>
-            <Link href="https://7c6f46d6.booksy.com" target="_blank"><img src={booksy} alt="booksy" /></Link>
+            <Link href="https://saloner.pl/salon/aria-angelika-olejnik/ " target="_blank"><img src={saloner} alt="booksy" /></Link>
         </Socials>
     </Container>
 );

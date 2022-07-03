@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import HeadingText from "../hedingText/headingText";
 import ContentText from "../contentText/contentText";
-import Button from '../button/button'
 
 const Content = styled.section`
     width: 100%;
@@ -16,12 +15,11 @@ const Content = styled.section`
     box-sizing: border-box;
 `
 
-const SingleCourseContent = () => (
+const ListServices = () => (
     <Content>
         <HeadingText />
         <ContentText />
-        <Button />
     </Content>
 );
 
-export default SingleCourseContent;
+export default ListServices;
